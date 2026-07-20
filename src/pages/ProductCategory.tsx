@@ -46,14 +46,14 @@ const productCategoryData: Record<string, CategoryData> = {
         name: "Trypsin",
         slug: "trypsin",
         bullets: [
-          "Facilitates protein breakdown through enzymatic hydrolysis",
-          "Aids efficient digestion of protein-based compounds",
-          "Promotes controlled tissue processing applications",
-          "Contributes to wound care and recovery formulations",
-          "Supports removal of non-viable protein materials",
-          "Assists in protein modification and analysis processes",
-          "Provides reliable performance in enzyme-based therapies",
-          "Offers versatile applications across healthcare and biotechnology sectors"
+          "Facilitates protein breakdown through enzymatic hydrolysis.",
+          "Aids efficient digestion of protein-based compounds.",
+          "Promotes controlled tissue processing applications.",
+          "Contributes to wound care and recovery formulations.",
+          "Supports removal of non-viable protein materials.",
+          "Assists in protein modification and analysis processes.",
+          "Provides reliable performance in enzyme-based therapies.",
+          "Offers versatile applications across healthcare and biotechnology sectors."
         ]
       },
       {
@@ -242,7 +242,7 @@ const productCategoryData: Record<string, CategoryData> = {
           "Applicable to biotechnology, feed, brewing, and nutritional ingredient production.",
           "Engineered to meet diverse industrial processing requirements.",
           "Delivers controlled polysaccharide modification for specialized manufacturing processes.",
-          "Recognized as an essential component in enzyme-based processing technologies"
+          "Recognized as an essential component in enzyme-based processing technologies."
         ]
       },
       {
@@ -338,7 +338,7 @@ const productCategoryData: Record<string, CategoryData> = {
           "Accommodates customized process conditions across multiple industries.",
           "Chosen for production workflows involving plant biomass conversion.",
           "Delivers targeted pectin modification for specialized industrial operations.",
-          "Represents a key biocatalyst in modern extraction and processing technologies"
+          "Represents a key biocatalyst in modern extraction and processing technologies."
         ]
       }
     ]
@@ -352,16 +352,16 @@ const productCategoryData: Record<string, CategoryData> = {
         name: "Bovine Collagen Peptide",
         slug: "bovine-collagen-peptide",
         bullets: [
-          "Provides a rich source of bioactive collagen-derived peptides",
-          "Contributes to maintaining healthy skin structure and elasticity",
-          "Aids in supporting connective tissue integrity",
-          "Promotes collagen synthesis within the body",
-          "Helps maintain joint and cartilage health",
-          "Enhances nutritional value in wellness formulations",
-          "Supports development of beauty and healthcare products",
-          "Offers high bioavailability for effective peptide utilization",
-          "Enables versatile applications in nutraceutical formulations",
-          "Provides functional benefits across health and nutrition industries"
+          "Provides a rich source of bioactive collagen-derived peptides.",
+          "Contributes to maintaining healthy skin structure and elasticity.",
+          "Aids in supporting connective tissue integrity.",
+          "Promotes collagen synthesis within the body.",
+          "Helps maintain joint and cartilage health.",
+          "Enhances nutritional value in wellness formulations.",
+          "Supports development of beauty and healthcare products.",
+          "Offers high bioavailability for effective peptide utilization.",
+          "Enables versatile applications in nutraceutical formulations.",
+          "Provides functional benefits across health and nutrition industries."
         ]
       },
       {
@@ -400,14 +400,14 @@ const productCategoryData: Record<string, CategoryData> = {
         name: "Chicken Collagen",
         slug: "chicken-collagen",
         bullets: [
-          "Provides a natural source of collagen-derived peptides",
-          "Supports connective tissue structure and flexibility",
-          "Contributes to joint and cartilage wellness formulations",
-          "Helps maintain skin firmness and elasticity",
-          "Aids in promoting collagen production within the body",
-          "Enhances nutritional value of health supplements",
-          "Supports development of beauty and wellness products",
-          "Offers functional benefits for mobility and tissue health",
+          "Provides a natural source of collagen-derived peptides.",
+          "Supports connective tissue structure and flexibility.",
+          "Contributes to joint and cartilage wellness formulations.",
+          "Helps maintain skin firmness and elasticity.",
+          "Aids in promoting collagen production within the body.",
+          "Enhances nutritional value of health supplements.",
+          "Supports development of beauty and wellness products.",
+          "Offers functional benefits for mobility and tissue health.",
           "Enables versatile applications in nutraceutical formulation."
         ]
       },
@@ -447,16 +447,16 @@ const productCategoryData: Record<string, CategoryData> = {
         name: "Bovine Gelatin",
         slug: "bovine-gelatin",
         bullets: [
-          "Provides a rich source of collagen-derived proteins",
-          "Supports development of pharmaceutical and nutraceutical formulations",
-          "Enhances texture and stability of capsule-based products",
-          "Offers excellent gelling and binding properties",
-          "Contributes to functional food and supplement applications",
-          "Provides valuable amino acids including glycine and proline",
-          "Enables efficient formulation of softgel and hard capsule products",
-          "Supports versatile applications in healthcare industries",
-          "Improves structural properties of various formulations",
-          "Delivers consistent quality for pharmaceutical and food applications"
+          "Provides a rich source of collagen-derived proteins.",
+          "Supports development of pharmaceutical and nutraceutical formulations.",
+          "Enhances texture and stability of capsule-based products.",
+          "Offers excellent gelling and binding properties.",
+          "Contributes to functional food and supplement applications.",
+          "Provides valuable amino acids including glycine and proline.",
+          "Enables efficient formulation of softgel and hard capsule products.",
+          "Supports versatile applications in healthcare industries.",
+          "Improves structural properties of various formulations.",
+          "Delivers consistent quality for pharmaceutical and food applications."
         ]
       },
       {
@@ -559,22 +559,22 @@ const productCategoryData: Record<string, CategoryData> = {
         name: "Soy Protein",
         slug: "soy-protein",
         bullets: [
-          "Provides a complete plant-based protein source",
-          "Delivers essential amino acids for nutritional formulations",
-          "Facilitates muscle and wellness-focused applications"
+          "Provides a complete plant-based protein source.",
+          "Delivers essential amino acids for nutritional formulations.",
+          "Facilitates muscle and wellness-focused applications."
         ]
       },
       {
         name: "Whey Protein",
         slug: "whey-protein",
         bullets: [
-          "Enhances protein content in functional nutrition products",
-          "Supports development of sports and wellness supplements",
-          "Offers excellent digestibility and bioavailability",
-          "Contributes to balanced dietary protein solutions",
-          "Enables versatile use in nutraceutical formulations",
-          "Promotes innovative health and performance products",
-          "Provides reliable functionality across nutrition industries"
+          "Enhances protein content in functional nutrition products.",
+          "Supports development of sports and wellness supplements.",
+          "Offers excellent digestibility and bioavailability.",
+          "Contributes to balanced dietary protein solutions.",
+          "Enables versatile use in nutraceutical formulations.",
+          "Promotes innovative health and performance products.",
+          "Provides reliable functionality across nutrition industries."
         ]
       }
     ]
@@ -693,7 +693,7 @@ const productCategoryData: Record<string, CategoryData> = {
           "Developed with emphasis on microbial viability, process consistency, and formulation performance.",
           "Selected by product developers for applications requiring scientifically established probiotic cultures.",
           "Fits a broad range of dietary supplement, food, and nutritional innovation projects.",
-          "Represents a trusted probiotic solution for contemporary microbiome-focused product development"
+          "Represents a trusted probiotic solution for contemporary microbiome-focused product development."
         ]
       },
       {
@@ -798,7 +798,7 @@ const productCategoryData: Record<string, CategoryData> = {
           "Selected by product developers for nutritional, fermentation, and specialty ingredient applications.",
           "Demonstrates dependable performance throughout commercial production processes.",
           "Suitable for wellness, functional nutrition, and industrial biotechnology concepts.",
-          "Represents a well-established yeast ingredient for contemporary formulation and innovation projects"
+          "Represents a well-established yeast ingredient for contemporary formulation and innovation projects."
         ]
       },
       {
@@ -1150,7 +1150,7 @@ const productCategoryData: Record<string, CategoryData> = {
           "Integrates effectively with probiotics, enzymes, minerals, vitamins, and other nutritional additives.",
           "Utilized by feed formulators seeking reliable functional ingredients for modern animal diets.",
           "Enables flexible development of innovative feed solutions across different animal nutrition segments.",
-          "A versatile calcium-based additive for advanced formulation strategies in the global feed industry"
+          "A versatile calcium-based additive for advanced formulation strategies in the global feed industry."
         ]
       },
       {
