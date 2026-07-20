@@ -10,7 +10,7 @@ const productCategories = [
     href: "/products/enzymes",
     subProducts: [
       "Serratiopeptidase", "Trypsin", "Pancreatin", "Pepsin", "Amylase",
-      "Bromelain", "Rennet", "Lactase", "Lipase", "Papain",
+      "Rennet", "Lactase", "Lipase", "Papain",
       "Phospholipase", "Protease", "Dextranase", "Cellulase", "Beta-Glucanase",
       "Transglutaminase", "Laccase", "Polygalacturonase", "Xylanase", "Galactosidase",
       "Pectinase"
