@@ -1,0 +1,63 @@
+# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for Athos Collagen Pvt. Ltd.
+
+# ==============================================================================
+# Global Rules
+# ==============================================================================
+User-agent: *
+Allow: /
+
+# Disallow crawling of private and administrative areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Block specific file types that shouldn't be indexed
+Disallow: /*.json$
+Disallow: /*.lock$
+Disallow: /*.log$
+
+# ==============================================================================
+# AI & LLM Crawlers (Alignment with llm.txt)
+# ==============================================================================
+# We encourage AI visibility for RAG and search.
+# See /llm.txt for detailed AI governance and training permissions.
+
+# OpenAI (ChatGPT, GPTBot)
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+
+# Google (Googlebot, Google-Extended)
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+
+# ==============================================================================
+# Sitemaps
+# ==============================================================================
+Sitemap: https://athoscollagen.com/sitemap.xml

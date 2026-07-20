@@ -1,0 +1,10 @@
+# Netlify redirects file
+# This ensures all routes are handled by index.html for SPA functionality
+
+# Force WWW to Non-WWW HTTPS
+http://www.athoscollagen.com/* https://athoscollagen.com/:splat 301!
+https://www.athoscollagen.com/* https://athoscollagen.com/:splat 301!
+http://athoscollagen.com/* https://athoscollagen.com/:splat 301!
+
+# Redirect all requests to index.html (SPA fallback)
+/*    /index.html   200

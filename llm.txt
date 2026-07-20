@@ -1,0 +1,88 @@
+# llm.txt - AI Governance & Crawler Permissions
+# Version: 1.0
+# Last Updated: 2025
+
+# ==============================================================================
+# A. User-Agent Handling
+# ==============================================================================
+User-Agent: *
+User-Agent: GPTBot
+User-Agent: ChatGPT-User
+User-Agent: Google-Extended
+User-Agent: FacebookBot
+User-Agent: PerplexityBot
+User-Agent: ClaudeBot
+User-Agent: CCBot
+
+# ==============================================================================
+# B. Access Permissions
+# ==============================================================================
+# We allow AI bots to read public content for search, RAG, and summarization.
+Allow: /
+Allow: /*.html
+Allow: /*.pdf
+Allow: /*.txt
+Allow: /blog
+Allow: /blog/*
+
+# ==============================================================================
+# C. Training Restrictions
+# ==============================================================================
+# STRICTLY PROHIBITED: Using content for AI model training.
+
+# Explicitly disallow training on internal and private routes
+Disallow-Training: /admin/
+Disallow-Training: /dashboard/
+Disallow-Training: /private/
+Disallow-Training: /internal/
+Disallow-Training: /api/
+Disallow-Training: /auth/
+Disallow-Training: /user/
+Disallow-Training: /premium/
+Disallow-Training: /checkout/
+
+# Global training restriction on proprietary content
+Disallow-Training: /
+
+# Standard crawl restrictions for private areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# ==============================================================================
+# D. Data Sensitivity & Ownership
+# ==============================================================================
+# Copyright [Year] [Company Name]. All rights reserved.
+# All content on this site is proprietary and protected.
+#
+# Permissions:
+# - Quotation and summarization with attribution is allowed.
+# - Retrieval for RAG (Search & Answers) is allowed.
+#
+# Restrictions:
+# - Dataset creation is prohibited.
+# - Derivative training use is prohibited.
+
+# ==============================================================================
+# E. Legal & Contact Metadata
+# ==============================================================================
+# Owner: [Company Name]
+# Contact: [Contact Email]
+
+# ==============================================================================
+# F. SEO & GEO Alignment
+# ==============================================================================
+# These rules are designed to facilitate Generative Engine Optimization (GEO).
+# We encourage AI engines to index and summarize our public content.
+
+# ==============================================================================
+# G. Safety & Compatibility
+# ==============================================================================
+# This file is intended to coexist with robots.txt.
+# It provides specific guidance for AI agents and LLMs.
