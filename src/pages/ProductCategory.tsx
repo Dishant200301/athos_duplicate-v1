@@ -1396,9 +1396,9 @@ const ProductCategory = () => {
                       <button
                         key={sub.slug}
                         onClick={() => handleNavClick(sub.slug, idx)}
-                        className={`text-left py-[1px] text-[15px] leading-tight font-medium transition-all ${isSelected
-                          ? "text-[#66b036]"
-                          : "text-[#555555] hover:text-[#1D7AA3]"
+                        className={`text-left py-[1px] text-[15px] leading-tight font-bold transition-all ${isSelected
+                          ? "text-[#1D81A5]"
+                          : "text-[#555555] hover:text-[#1D7AA3] font-medium"
                           }`}
                       >
                         {sub.name}
